@@ -1,0 +1,19 @@
+{
+  "name": "roundish",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "test": "node test/game.test.js && node test/skills.test.js && node test/input.test.js && node test/skill-demo.test.js && node test/rooms.test.js && node test/emote-recordings.test.js && node test/emote-assets.test.js && node test/skill-draft.test.js && node test/emote-choreography.test.js && node test/player-view.test.js",
+    "bundle": "npm run build && node scripts/package.mjs",
+    "start": "node server/server.mjs"
+  },
+  "dependencies": {
+    "three": "^0.180.0",
+    "ws": "^8.22.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  },
+  "version": "1.15.0"
+}

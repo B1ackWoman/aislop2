@@ -1,0 +1,23 @@
+services:
+  game:
+    build: .
+    restart: unless-stopped
+    expose:
+      - "3000"
+    volumes:
+      - ./public/emotes:/app/public/emotes:ro
+  web:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      GAME_DOMAIN: ${GAME_DOMAIN:?Set GAME_DOMAIN in .env}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+volumes:
+  caddy_data:
+  caddy_config:

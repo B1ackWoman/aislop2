@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#c8b8e3"><title>ROUNDISH — круглые бойцы, большие приколы</title>  <script type="module" crossorigin src="/assets/index-yTb9Cbb2.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-B2ZmWVCa.css">
+</head>
+<body>
+<canvas id="world"></canvas>
+<div id="app">
+<header><a class="logo" href="./">ROUND<span>ISH</span><i>✦</i></a><div class="tag">ТВОЙ КАРМАННЫЙ ХАОС / ONLINE 1V1</div><div class="header-audio"><button id="audio-settings" class="icon" title="Настройки громкости" aria-label="Настройки громкости">⚙</button><button id="sound" class="icon" title="Включить или выключить звук">♫ Звук: вкл.</button></div></header>
+<main id="menu">
+<div class="desktop-label"><span>✦ GOOD TIMES, WEIRD FIGHTS</span><span>ПРИВЕТ ИЗ НУЛЕВЫХ</span></div>
+<section class="menu-window">
+<div class="window-titlebar"><span><b>◉</b> ROUNDISH.EXE</span><span class="window-controls" aria-hidden="true">_ □ ×</span></div>
+<div class="menu-desktop">
+<div class="menu-copy"><div class="eyebrow"><span></span> ПРИВЕТ, ЭТО ТВОЙ НОВЫЙ ЛЮБИМЫЙ ХАОС</div>
+<h1 class="rounds-title" aria-label="ROUNDISH"><span aria-hidden="true">R</span><span aria-hidden="true">O</span><span aria-hidden="true">U</span><span aria-hidden="true">N</span><span aria-hidden="true">D</span><span class="title-tail" aria-hidden="true">ISH</span></h1>
+<p class="menu-motto">КРУГЛЫЕ БОЙЦЫ.<br>БОЛЬШИЕ ПРИКОЛЫ.</p><p class="intro">Выбери умение. Позови друга.<br>Победи — и покажи свой лучший танец.</p>
+<div class="actions"><button id="online" class="rounds-action"><span class="menu-arrow" aria-hidden="true">↗</span>С ДРУГОМ <small>1 VS 1</small></button><button id="bot" class="rounds-action"><span class="menu-arrow" aria-hidden="true">▶</span>С БОТОМ <small>РАЗМИНКА</small></button></div>
+<div class="menu-tools"><button id="customize" class="tool-button"><span aria-hidden="true">☺</span>ГАРДЕРОБ</button><button id="emote-settings" class="tool-button"><span aria-hidden="true">♫</span>ЭМОЦИИ И МУЗЫКА</button></div>
+<div class="arena-picker"><span class="arena-choice-label">ТВОЯ АРЕНА</span><div id="map-choices" role="group" aria-label="Выбор арены"></div><label class="rotate-label"><input id="rotate-maps" type="checkbox" checked> Новая карта каждый раунд</label></div>
+</div>
+<div class="mascot-column"><div class="sticker sticker-star" aria-hidden="true">✦<small>LET'S<br>PLAY!</small></div><div class="mascot-window"><div class="mini-window-title"><span>☺ PLAYER_01</span><span>♡</span></div><div class="mascot-screen"><canvas id="menu-character" role="button" tabindex="0" aria-label="Открыть гардероб персонажа"></canvas><span class="mascot-note">НАЖМИ НА МЕНЯ — ОТКРОЮ ГАРДЕРОБ</span></div><div class="mascot-status"><span><i></i> ГОТОВ К ПРИКОЛАМ</span><span>✧ ✧ ✧</span></div></div><div class="sticker sticker-label" aria-hidden="true">ALL SMILES.<br>NO MERCY. ☺</div><div class="features"><span><b>24</b> УМЕНИЯ</span><span><b>17</b> ТАНЦЕВ</span><span><b>3</b> АРЕНЫ</span></div><div class="arena-label"><span id="arena-title">01 / ОБЛАЧНЫЙ ДВОР</span><small id="arena-subtitle">Площадки, укрытия и длинные прострелы</small></div></div>
+</div><div class="window-statusbar"><span>✿ Одно умение на старте. После поражения — ещё одно.</span><span id="audio-hint">♫ Нажми, чтобы включить музыку</span></div>
+</section>
+<div class="desktop-caption"><span>СОБРАНО ИЗ ПИКСЕЛЕЙ И ХОРОШЕГО НАСТРОЕНИЯ</span><span>♡ HAVE A NICE DUEL</span></div>
+</main>
+<div id="hud" hidden><div class="fighter blue"><b id="name0">ТЫ</b><div class="hp"><i id="hp0"></i></div><span id="cards0"></span></div><div class="score"><b id="score">0 : 0</b><span id="round">РАУНД 1</span><small id="map-name"></small></div><div class="fighter coral"><b id="name1">БОТ</b><div class="hp"><i id="hp1"></i></div><span id="cards1"></span></div></div>
+<div id="skill-hud" hidden><div class="skill-hud-caption">АКТИВНЫЕ УМЕНИЯ</div><div id="skill-slots"></div></div>
+<div id="victory-showcase" hidden><div class="winner-heading"><span>ПОБЕДИТЕЛЬ РАУНДА</span><h2 id="winner-name"></h2></div><div class="emote-panel"><p id="emote-caption"></p><div id="emote-buttons"></div><div id="emote-progress" hidden><i></i></div></div></div>
+<footer><div><kbd>W A S D</kbd> движение <kbd>МЫШЬ</kbd> прицел <kbd>ЛКМ</kbd> огонь <kbd>SPACE</kbd> прыжок <kbd>E</kbd> щит <kbd>1 2 3</kbd> умения</div><button id="exit" hidden>В меню ›</button><span id="footer-mark">✦ ROUNDISH / PLAY NICE, FIGHT WEIRD</span></footer>
+<div id="toast" role="status"></div><div id="modal" hidden><section class="dialog"><button id="close" class="close" aria-label="Закрыть">×</button><div id="dialog-content"></div></section></div><div id="banner" hidden></div>
+</div>
+</body></html>

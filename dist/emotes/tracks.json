@@ -1,0 +1,172 @@
+{
+  "pbj": {
+    "src": "pbj.mp3",
+    "title": "ПБЖ · из твоего видео Roblox",
+    "start": 0,
+    "source": "MedalTVRoblox20261007023859350.mp4",
+    "sourceStart": 3,
+    "sourceAudioStream": 2,
+    "duration": 8,
+    "sha256": "e2f10bebfca4e7cfe3867be28053cfd797060cdbcea0d00b3e37f3707399b48a"
+  },
+  "tenna": {
+    "src": "tenna.mp3",
+    "title": "Тенна · из твоего видео Roblox",
+    "start": 0,
+    "source": "MedalTVRoblox20261007023859350.mp4",
+    "sourceStart": 19,
+    "sourceAudioStream": 2,
+    "duration": 8,
+    "sha256": "9adb46f51bbc4c53be48fc6b4f877197d0bd01949121bba251b1f48fd4542bae"
+  },
+  "die": {
+    "src": "die.mp3",
+    "title": "Умереть · из твоего видео Roblox",
+    "start": 0,
+    "source": "MedalTVRoblox20261007023859350.mp4",
+    "sourceStart": 32,
+    "sourceAudioStream": 2,
+    "duration": 8,
+    "sha256": "f28dc5007262d888ac950ea172ed57198b519bad5f70ac0eebfe67f0a8b6a09c"
+  },
+  "paranoid": {
+    "src": "paranoid.mp3",
+    "title": "Параноид · из твоего видео Roblox",
+    "start": 0,
+    "source": "MedalTVRoblox20261007023859350.mp4",
+    "sourceStart": 51,
+    "sourceAudioStream": 2,
+    "duration": 8,
+    "sha256": "837de3ede62e14360b07812594c866316ddf21929829cdd4b22c2fc1e312fb68"
+  },
+  "sickriff": {
+    "src": "sickriff.mp3",
+    "title": "Сикрифф · из твоего видео Roblox",
+    "start": 0,
+    "source": "MedalTVRoblox20261007023859350.mp4",
+    "sourceStart": 66,
+    "sourceAudioStream": 2,
+    "duration": 8,
+    "sha256": "49b597fc1efc911a96dee178f01b787e26c9cf1bff7ff3ca75596ec4604a494e"
+  },
+  "teto": {
+    "src": "teto.mp3",
+    "title": "Тето · из твоего видео Roblox",
+    "start": 0,
+    "source": "MedalTVRoblox20261007024150581.mp4",
+    "sourceStart": 4,
+    "sourceAudioStream": 2,
+    "duration": 8,
+    "sha256": "e0d6ee3a35ea9d526e941780c856a6990e39d17c0621d79587b59a2b01b93ea9"
+  },
+  "boom": {
+    "src": "boom.mp3",
+    "title": "БУМ! · из твоего видео Roblox",
+    "start": 0,
+    "source": "MedalTVRoblox20261007024150581.mp4",
+    "sourceStart": 16,
+    "sourceAudioStream": 2,
+    "duration": 8,
+    "sha256": "75069698ed9097c87d4bce933091daaad1e51ba1071e00609ee45667df0c4b08"
+  },
+  "qualified": {
+    "src": "qualified.mp3",
+    "title": "Квалифицированный · из твоего видео Roblox",
+    "start": 0,
+    "source": "MedalTVRoblox20261007024150581.mp4",
+    "sourceStart": 31,
+    "sourceAudioStream": 2,
+    "duration": 8,
+    "sha256": "83d90af39806cf713713c1c24fa1b14e3441db9b9c3a3fdac5a027e4696e24d4"
+  },
+  "griddy": {
+    "src": "griddy.mp3",
+    "title": "Гриди · из твоего видео Roblox",
+    "start": 0,
+    "source": "MedalTVRoblox20261007024150581.mp4",
+    "sourceStart": 46,
+    "sourceAudioStream": 2,
+    "duration": 8,
+    "sha256": "938426022559c8b088857eec71cb3acb7ee070051f09c112c73827bcb48c9aea"
+  },
+  "metroswing": {
+    "src": "metroswing.mp3",
+    "title": "Метрошвинги · из твоего видео Roblox",
+    "start": 0,
+    "source": "MedalTVRoblox20261007024404035.mp4",
+    "sourceStart": 3,
+    "sourceAudioStream": 2,
+    "duration": 8,
+    "sha256": "82028b92b82b4b5e2a05a4ed6e361e5844af57067bd4621cd65591a5ae730093"
+  },
+  "talking": {
+    "src": "talking.mp3",
+    "title": "Говорили о · из твоего видео Roblox",
+    "start": 0,
+    "source": "MedalTVRoblox20261007024404035.mp4",
+    "sourceStart": 16,
+    "sourceAudioStream": 2,
+    "duration": 8,
+    "sha256": "035bb70445c21ca4bdaf07db712e8a6b29694560954048d69184377910d9d005"
+  },
+  "kazotsky": {
+    "src": "kazotsky.mp3",
+    "title": "Казотский · из твоего видео Roblox",
+    "start": 0,
+    "source": "MedalTVRoblox20261007024404035.mp4",
+    "sourceStart": 31,
+    "sourceAudioStream": 2,
+    "duration": 8,
+    "sha256": "0d7a5e7b0c27c1dba930b5fa2780ebd86f3947066334d476be97bf80897ac8ed"
+  },
+  "down": {
+    "src": "down.mp3",
+    "title": "ОНО СХОДИТ ВНИЗ · из твоего видео Roblox",
+    "start": 0,
+    "source": "MedalTVRoblox20261007024404035.mp4",
+    "sourceStart": 46,
+    "sourceAudioStream": 2,
+    "duration": 8,
+    "sha256": "f315e109b931f1b42ea77c5c1d6794acad53bf35559096be5fc202b8d693129a"
+  },
+  "shuba": {
+    "src": "shuba.mp3",
+    "title": "Шуба · из твоего видео Roblox",
+    "start": 0,
+    "source": "MedalTVRoblox20261007024620007.mp4",
+    "sourceStart": 2,
+    "sourceAudioStream": 2,
+    "duration": 8,
+    "sha256": "5979916eb6cebf7d522d1d867c7b2bb19c28d81c9726ec5dfd5d907c26e0d3ef"
+  },
+  "friends": {
+    "src": "friends.mp3",
+    "title": "С друзьями · из твоего видео Roblox",
+    "start": 0,
+    "source": "MedalTVRoblox20261007024620007.mp4",
+    "sourceStart": 24,
+    "sourceAudioStream": 2,
+    "duration": 8,
+    "sha256": "be3246b5c821511f8875fd0e9a50149119cc4ab7a50f8fe45cc2656343220035"
+  },
+  "aura": {
+    "src": "aura.mp3",
+    "title": "Аура · из твоего видео Roblox",
+    "start": 0,
+    "source": "MedalTVRoblox20261007024620007.mp4",
+    "sourceStart": 38,
+    "sourceAudioStream": 2,
+    "duration": 8,
+    "sha256": "748446865d96459c010da18a19bea5e309f3ede1810a0557bb0ebe7d60cb59fd"
+  },
+  "jackpot": {
+    "src": "jackpot.mp3",
+    "title": "Джекпот · из твоего видео Roblox",
+    "start": 0,
+    "source": "MedalTVRoblox20261007024620007.mp4",
+    "sourceStart": 50,
+    "sourceAudioStream": 2,
+    "duration": 8,
+    "sha256": "cffbd01d1db440625de3255bec4851a9d1773eb1cdfc39ac9c1960c2224833d8"
+  }
+}

@@ -1,0 +1,20 @@
+import assert from 'node:assert/strict';
+import { RecordedEmotes } from '../src/recorded-emotes.js';
+import { recordingSpec } from '../src/emote-music.js';
+
+const sources=[];
+const audio={emoteId:'griddy',emoteAnchor:90,emoteMusic:{},context:{currentTime:93,createBufferSource(){const source={connect(){},disconnect(){},start(...args){this.args=args;},stop(){this.stopped=true;}};sources.push(source);return source;}}};
+const recordings=new RecordedEmotes(audio);
+recordings.sync(true);assert.equal(sources.length,0,'a missing song must stay silent, without a synthesized fallback');
+recordings.tracks.set('griddy',{buffer:{duration:20},start:3.5,name:'recording'});
+recordings.sync(true);assert.deepEqual(sources[0].args,[93,6.5,5],'late clients seek to the same musical phrase instead of restarting the song');
+recordings.sync(false);assert.equal(sources[0].stopped,true);
+audio.context.currentTime=94;recordings.sync(true);assert.deepEqual(sources[1].args,[94,7.5,4],'unmuting resumes at the current dance time');
+sources[1].onended();recordings.sync(true);assert.equal(sources.length,2,'a finished recording must not loop');
+recordings.stop();audio.context.currentTime=99;recordings.sync(true);assert.equal(sources.length,2,'no song can continue after the eight-second dance');
+recordings.stop();audio.context.currentTime=91;recordings.tracks.set('griddy',{buffer:{duration:5},start:3.5});recordings.sync(true);assert.deepEqual(sources[2].args,[91,4.5,.5],'short songs stop at their actual end');
+recordings.stop();
+assert.equal(recordingSpec(null,'https://game.example/emotes/tracks.json'),null);
+assert.deepEqual(recordingSpec({src:'song.mp3',title:'Song',start:12.5},'https://game.example/emotes/tracks.json'),{src:'https://game.example/emotes/song.mp3',name:'Song',start:12.5});
+assert.throws(()=>recordingSpec({src:'javascript:alert(1)'},'https://game.example/'),/HTTP/);
+console.log('Recorded songs: silence without files, authoritative seek, mute/resume, bounded duration, no loops and manifest URLs passed');
